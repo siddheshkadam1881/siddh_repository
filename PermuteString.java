@@ -1,7 +1,20 @@
-    class PermuteString
+/******************************************************************************
+ *  Compilation:  javac -d bin PermuteString.java
+ *  Execution:    java -cp bin com.bridgelabz.util.PermuteString  s1
+ *  
+ *  Purpose: Determines whether or not n is prime.
+ *
+ *  @author  BridgeLabz
+ *  @version 1.0
+ *  @since   06-08-2017
+ *
+ *****************************************************************************/
+package com.bridgelabz.util;
+class PermuteString
  {
         public static void main(String args[]) 
      {
+        String s1=args[0];
         permuteString("", "Siddhu");
   
      }
