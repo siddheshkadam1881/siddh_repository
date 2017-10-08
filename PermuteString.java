@@ -1,16 +1,18 @@
-/******************************************************************************
+ /******************************************************************************
  *  Compilation:  javac -d bin PermuteString.java
- *  Execution:    java -cp bin com.bridgelabz.util.PermuteString  s1
+ *  Execution:    java -cp bin com.bridgelabz.util.PermuteString s1
  *  
- *  Purpose: Determines whether or not n is prime.
+ *  Purpose: Determines Permutation of a String. 
  *
  *  @author  siddheshwar kadam
  *  @version 1.0
  *  @since   06-08-2017
  *
- *****************************************************************************/
+ ******************************************************************************/
 package com.bridgelabz.util;
-class PermuteString
+
+
+ class PermuteString
  {
         public static void main(String args[]) 
      {

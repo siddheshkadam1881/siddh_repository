@@ -1,0 +1,39 @@
+class Printinitials
+{
+    public static void main(String args[])
+  {
+    
+  
+    for(int i=0;i<args.length;i++)
+   {
+    chr1[i]=toCharArray(args[i]);
+   
+   switch(char1[i])
+  {
+   
+    case K: printA();
+	    break; 
+    case D: printB();       
+            break;
+    default: printC();
+  }
+  }
+
+  void printA()
+   {  i,j;
+ 
+      for(i=1;i<=9;i++)
+      {
+       for(j=1;i<=9;i++)
+       {
+         if(i=1 || i=5 || j==1 || j==9)
+          { 
+           System.out.print("*");
+           } 
+         else
+           System.out.println();
+        }
+   }
+   // void printB()
+    
+     
