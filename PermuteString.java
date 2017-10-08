@@ -15,7 +15,7 @@ class PermuteString
         public static void main(String args[]) 
      {
         String s1=args[0];
-        permuteString("", "Siddhu");
+        permuteString("", s1);
   
      }
         public static void permuteString(String beginningString, String endingString) 
